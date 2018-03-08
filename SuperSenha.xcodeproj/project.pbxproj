@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800CA1212050B55C002A7363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800CA1202050B55C002A7363 /* AppDelegate.swift */; };
+		800CA1232050B55C002A7363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800CA1222050B55C002A7363 /* ViewController.swift */; };
+		800CA1262050B55C002A7363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800CA1242050B55C002A7363 /* Main.storyboard */; };
+		800CA1282050B55C002A7363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800CA1272050B55C002A7363 /* Assets.xcassets */; };
+		800CA12B2050B55C002A7363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800CA1292050B55C002A7363 /* LaunchScreen.storyboard */; };
+		800CA1362050B55C002A7363 /* SuperSenhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800CA1352050B55C002A7363 /* SuperSenhaTests.swift */; };
+		800CA1412050B55C002A7363 /* SuperSenhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800CA1402050B55C002A7363 /* SuperSenhaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800CA1322050B55C002A7363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800CA1152050B55C002A7363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800CA11C2050B55C002A7363;
+			remoteInfo = SuperSenha;
+		};
+		800CA13D2050B55C002A7363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800CA1152050B55C002A7363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800CA11C2050B55C002A7363;
+			remoteInfo = SuperSenha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800CA11D2050B55C002A7363 /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800CA1202050B55C002A7363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800CA1222050B55C002A7363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		800CA1252050B55C002A7363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800CA1272050B55C002A7363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800CA12A2050B55C002A7363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800CA12C2050B55C002A7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800CA1312050B55C002A7363 /* SuperSenhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSenhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800CA1352050B55C002A7363 /* SuperSenhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSenhaTests.swift; sourceTree = "<group>"; };
+		800CA1372050B55C002A7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800CA13C2050B55C002A7363 /* SuperSenhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSenhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800CA1402050B55C002A7363 /* SuperSenhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSenhaUITests.swift; sourceTree = "<group>"; };
+		800CA1422050B55C002A7363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800CA11A2050B55C002A7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA12E2050B55C002A7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA1392050B55C002A7363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800CA1142050B55C002A7363 = {
+			isa = PBXGroup;
+			children = (
+				800CA11F2050B55C002A7363 /* SuperSenha */,
+				800CA1342050B55C002A7363 /* SuperSenhaTests */,
+				800CA13F2050B55C002A7363 /* SuperSenhaUITests */,
+				800CA11E2050B55C002A7363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800CA11E2050B55C002A7363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800CA11D2050B55C002A7363 /* SuperSenha.app */,
+				800CA1312050B55C002A7363 /* SuperSenhaTests.xctest */,
+				800CA13C2050B55C002A7363 /* SuperSenhaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800CA11F2050B55C002A7363 /* SuperSenha */ = {
+			isa = PBXGroup;
+			children = (
+				800CA1202050B55C002A7363 /* AppDelegate.swift */,
+				800CA1222050B55C002A7363 /* ViewController.swift */,
+				800CA1242050B55C002A7363 /* Main.storyboard */,
+				800CA1272050B55C002A7363 /* Assets.xcassets */,
+				800CA1292050B55C002A7363 /* LaunchScreen.storyboard */,
+				800CA12C2050B55C002A7363 /* Info.plist */,
+			);
+			path = SuperSenha;
+			sourceTree = "<group>";
+		};
+		800CA1342050B55C002A7363 /* SuperSenhaTests */ = {
+			isa = PBXGroup;
+			children = (
+				800CA1352050B55C002A7363 /* SuperSenhaTests.swift */,
+				800CA1372050B55C002A7363 /* Info.plist */,
+			);
+			path = SuperSenhaTests;
+			sourceTree = "<group>";
+		};
+		800CA13F2050B55C002A7363 /* SuperSenhaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800CA1402050B55C002A7363 /* SuperSenhaUITests.swift */,
+				800CA1422050B55C002A7363 /* Info.plist */,
+			);
+			path = SuperSenhaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800CA11C2050B55C002A7363 /* SuperSenha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800CA1452050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenha" */;
+			buildPhases = (
+				800CA1192050B55C002A7363 /* Sources */,
+				800CA11A2050B55C002A7363 /* Frameworks */,
+				800CA11B2050B55C002A7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSenha;
+			productName = SuperSenha;
+			productReference = 800CA11D2050B55C002A7363 /* SuperSenha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800CA1302050B55C002A7363 /* SuperSenhaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800CA1482050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenhaTests" */;
+			buildPhases = (
+				800CA12D2050B55C002A7363 /* Sources */,
+				800CA12E2050B55C002A7363 /* Frameworks */,
+				800CA12F2050B55C002A7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800CA1332050B55C002A7363 /* PBXTargetDependency */,
+			);
+			name = SuperSenhaTests;
+			productName = SuperSenhaTests;
+			productReference = 800CA1312050B55C002A7363 /* SuperSenhaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800CA13B2050B55C002A7363 /* SuperSenhaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800CA14B2050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenhaUITests" */;
+			buildPhases = (
+				800CA1382050B55C002A7363 /* Sources */,
+				800CA1392050B55C002A7363 /* Frameworks */,
+				800CA13A2050B55C002A7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800CA13E2050B55C002A7363 /* PBXTargetDependency */,
+			);
+			name = SuperSenhaUITests;
+			productName = SuperSenhaUITests;
+			productReference = 800CA13C2050B55C002A7363 /* SuperSenhaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800CA1152050B55C002A7363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Luis Fernando Rodrigues ";
+				TargetAttributes = {
+					800CA11C2050B55C002A7363 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					800CA1302050B55C002A7363 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800CA11C2050B55C002A7363;
+					};
+					800CA13B2050B55C002A7363 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800CA11C2050B55C002A7363;
+					};
+				};
+			};
+			buildConfigurationList = 800CA1182050B55C002A7363 /* Build configuration list for PBXProject "SuperSenha" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800CA1142050B55C002A7363;
+			productRefGroup = 800CA11E2050B55C002A7363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800CA11C2050B55C002A7363 /* SuperSenha */,
+				800CA1302050B55C002A7363 /* SuperSenhaTests */,
+				800CA13B2050B55C002A7363 /* SuperSenhaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800CA11B2050B55C002A7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800CA12B2050B55C002A7363 /* LaunchScreen.storyboard in Resources */,
+				800CA1282050B55C002A7363 /* Assets.xcassets in Resources */,
+				800CA1262050B55C002A7363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA12F2050B55C002A7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA13A2050B55C002A7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800CA1192050B55C002A7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800CA1232050B55C002A7363 /* ViewController.swift in Sources */,
+				800CA1212050B55C002A7363 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA12D2050B55C002A7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800CA1362050B55C002A7363 /* SuperSenhaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA1382050B55C002A7363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800CA1412050B55C002A7363 /* SuperSenhaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800CA1332050B55C002A7363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800CA11C2050B55C002A7363 /* SuperSenha */;
+			targetProxy = 800CA1322050B55C002A7363 /* PBXContainerItemProxy */;
+		};
+		800CA13E2050B55C002A7363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800CA11C2050B55C002A7363 /* SuperSenha */;
+			targetProxy = 800CA13D2050B55C002A7363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800CA1242050B55C002A7363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800CA1252050B55C002A7363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800CA1292050B55C002A7363 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800CA12A2050B55C002A7363 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800CA1432050B55C002A7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800CA1442050B55C002A7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800CA1462050B55C002A7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800CA1472050B55C002A7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		800CA1492050B55C002A7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSenha.app/SuperSenha";
+			};
+			name = Debug;
+		};
+		800CA14A2050B55C002A7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSenha.app/SuperSenha";
+			};
+			name = Release;
+		};
+		800CA14C2050B55C002A7363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperSenha;
+			};
+			name = Debug;
+		};
+		800CA14D2050B55C002A7363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperSenhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.opluss.SuperSenhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperSenha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800CA1182050B55C002A7363 /* Build configuration list for PBXProject "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800CA1432050B55C002A7363 /* Debug */,
+				800CA1442050B55C002A7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800CA1452050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800CA1462050B55C002A7363 /* Debug */,
+				800CA1472050B55C002A7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800CA1482050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenhaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800CA1492050B55C002A7363 /* Debug */,
+				800CA14A2050B55C002A7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800CA14B2050B55C002A7363 /* Build configuration list for PBXNativeTarget "SuperSenhaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800CA14C2050B55C002A7363 /* Debug */,
+				800CA14D2050B55C002A7363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800CA1152050B55C002A7363 /* Project object */;
+}
